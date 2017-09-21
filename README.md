@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
-- `latest`, `1`, `1.6`, `1.6.2` [(Dockerfile)](https://github.com/machine-data/docker-oauth2_proxy/blob/master/Dockerfile)
+- `latest`, `1`, `1.6`, `1.6.2` [(Dockerfile)](https://github.com/machine-data/docker-node-red/blob/master/Dockerfile)
 
 - `1.5`, `1.5.1` [(Dockerfile)](https://github.com/machine-data/docker-node-red/blob/v1.5.1/Dockerfile)
 
