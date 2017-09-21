@@ -8,7 +8,7 @@ fi
 
 # allow the container to be started with `--user`
 if [ "$1" = 'node-red' -a "$(id -u)" = '0' ]; then
-    chown -R node-red:node-red /config /data
+    chown -R node-red:node-red /config /data --quiet || true
     exec su-exec node-red "$0" "$@"
 fi
 
